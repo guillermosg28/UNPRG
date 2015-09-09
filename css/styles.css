@@ -79,12 +79,12 @@ a:focus {
   margin-right: 0;
 }
 .btn-theme {
-  background: #6091ba;
+  background: #039BE5; /**COLORDE BOTON**/
   border: 1px solid #6091ba;
   color: #fff;
 }
 .btn-theme:hover {
-  background: #84aac9;
+  background: #03A9F4; /*ACTIVAR BOTON**/
   border: 1px solid #84aac9;
   color: #fff;
 }
@@ -649,7 +649,7 @@ ul.custom-list-style li {
 }
 /* ======= Header ======= */
 .header .top-bar {
-  background: #50b3ee; /* CABECERA */
+  background: #001b2d; /* CABECERA */
 }
 .header .top-bar .search-form {
   padding: 10px 0;
@@ -663,11 +663,13 @@ ul.custom-list-style li {
   margin-right: 0;
 }
 .header .social-icons a {
-  background: #27435a;
+  color:#fff;
+text-decoration:none;
 }
 .header .social-icons a:hover {
   background: #6091ba;
 }
+
 .header .social-icons a:hover .fa {
   color: #fff;
 }
@@ -759,7 +761,7 @@ ul.custom-list-style li {
   border-color: #6091ba;
 }
 .main-nav {
-  background: #30add1; /* NAVEGACION*/
+  background: #0288D1; /* NAVEGACION*/
   margin-bottom: 30px;
 }
 .main-nav button {
@@ -800,14 +802,14 @@ ul.custom-list-style li {
   -o-transition: all 0.4s ease-in-out;
 }
 .main-nav .nav .nav-item a:hover {
-  background: #6091ba;
+  background: #039BE5; /*MENU INDEPENDIENTE*/
   color: #fff;
 }
 .main-nav .nav .nav-item.active {
   position: relative;
 }
 .main-nav .nav .nav-item.active > a {
-  background: #29a1c4; /* menu activado */
+  background: #039BE5; /* menu activado */
   color: #fff;
 }
 .main-nav .nav .nav-item.active > a:before {
@@ -825,7 +827,7 @@ ul.custom-list-style li {
   display: none;
 }
 .main-nav .nav .nav-item.open a {
-  background: #29a1c4; /* cambiar menu*/
+  background: #039BE5; /* cambiar menu*/
   color: #fff;
 }
 .main-nav .nav .nav-item .dropdown-menu {
@@ -844,11 +846,11 @@ ul.custom-list-style li {
   min-width: 220px;
 }
 .main-nav .nav .nav-item .dropdown-menu a {
-  border-bottom: 1px solid #3e6a8f;
+  border-bottom: 1px solid #0288D1; /* BARRA DE LINEA **/
   padding: 8px 20px;
 }
 .main-nav .nav .nav-item .dropdown-menu a:hover {
-  background: #3e6a8f;
+  background: #03A9F4; /*SELECIONANDO ITEM MENU */
   color: #fff;
   padding-left: 24px;
 }
@@ -2016,3 +2018,49 @@ ul.custom-list-style li {
     width: 255px;
   }
 }
+
+
+/*** REDES SOCIAL - ICONOS ***/
+.social{
+  list-style: none;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.social a, .social a:visited, .social a:hover{
+color:#fff;
+text-decoration:none;
+
+}
+
+.social i{
+display:inline-block;
+height:30px;
+width:30px;
+font-size:15px;
+text-align:center;
+line-height:30px;
+margin-right: 6px;
+-webkit-transition:background 1s ease;
+-moz-transition:background 1s ease;
+-o-transition:background 1s ease;
+transition:background 1s ease;
+border-radius:30px;
+}
+
+.social i:hover{
+-webkit-transition:background 1s ease;
+-moz-transition:background 1s ease;
+-o-transition:background 1s ease;
+transition:background 1s ease;
+}
+
+.facebook { background: #1e78ae !important; }
+.twitter { background: #1ba1e2 !important; }
+.google-plus { background: #f22d0c !important; }
+.linkedin { background: #2d93cf !important; }
+.youtube { background:    #dd1617 !important; }
+
+.facebook:hover, .twitter:hover,
+.google-plus:hover, .linkedin:hover,
+.youtube:hover { opacity: 0.8; !important; }

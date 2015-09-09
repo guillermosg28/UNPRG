@@ -34,12 +34,16 @@
         <!-- ******HEADER****** --> 
         <header class="header">  
             <div class="top-bar">
-                <div class="container">              
-                    <ul class="social-icons col-md-6 col-sm-6 col-xs-12 hidden-xs">
-                        <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" ><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" ><i class="fa fa-youtube"></i></a></li>            
-                    </ul><!--//social-icons-->
+                <div class="container"> 
+                    <ul class="social col-md-6 col-sm-6 col-xs-4">
+                        <a href="#"><i class="fa fa-facebook facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube youtube"></i></a>
+                    </ul>
+
+
+
+
                     <form class="pull-right search-form" role="search">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Buscar...">
