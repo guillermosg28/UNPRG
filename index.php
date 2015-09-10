@@ -202,9 +202,127 @@
 
                 <div class="col-md-6">
                     <section class="course-finder">
-                        <h4 class="section-heading text-highlight"><span class="line">Instituto de Docencia, Investigacion y Proyeccion en Salud</span></h4>
+                        <h1 class="section-heading text-highlight"><span class="line">IDIPSA</span></h1>
                     </section>
-                </div>
+
+                    <section class="course-finder">
+                        <h1 class="section-heading text-highlight"><span class="line">Convenios</span></h1>
+                    </section>
+
+                     <section class="course-finder">
+                        <h1 class="section-heading text-highlight"><span class="line">Bienestar Universitario</span></h1>
+                    </section>
+                </div><!--//col-md-6-->
+
+                <div class="col-md-3">
+
+                    <section class="testimonials">
+                        <h1 class="section-heading text-highlight"><span class="line"> Videos</span></h1>
+                        <div class="carousel-controls">
+                            <a class="prev" href="#testimonials-carousel" data-slide="prev"><i class="fa fa-caret-left"></i></a>
+                            <a class="next" href="#testimonials-carousel" data-slide="next"><i class="fa fa-caret-right"></i></a>
+                        </div><!--//carousel-controls-->
+                        <div class="section-content">
+                            <div id="testimonials-carousel" class="testimonials-carousel carousel slide">
+                                <div class="carousel-inner">
+
+                                    <div class="item active">
+                                        <div class="col-md-6 col-sm-3 col-xs-6 text-center">
+                                            <div class="album-cover">
+                                                <a href="#"><img class="img-responsive center-block" src="imagenes/videos/1.png" alt="" /></a>
+                                                <div class="desc">
+                                                    <h5><small><a href="#">CPU Ciclo 2015-II</a></small></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-3 col-xs-6 text-center">
+                                            <div class="album-cover">
+                                                <a href="gallery-album.html"><img class="img-responsive center-block" src="imagenes/videos/2.png" alt="" /></a>
+                                                <div class="desc">
+                                                    <h5><small><a href="#">Concurso Admisión 2015-II</a></small></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-3 col-xs-6 text-center">
+                                            <div class="album-cover">
+                                                <a href="gallery-album.html"><img class="img-responsive center-block" src="imagenes/videos/3.png" alt="" /></a>
+                                                <div class="desc">
+                                                    <h5><small><a href="#">La UNPRG se moderniza</a></small></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-3 col-xs-6 text-center">
+                                            <div class="album-cover">
+                                             <a href="gallery-album.html"><img class="img-responsive center-block" src="imagenes/videos/4.png" alt="" /></a>
+                                             <div class="desc">
+                                                <h5><small><a href="#">Michael Sayman Visitó la UNPRG</a></small></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div><!--//item-->
+
+                                    <div class="item">
+                                        
+                                        <div class="col-md-6 col-sm-3 col-xs-6 text-center">
+                                            <div class="album-cover">
+                                                <a href="#"><img class="img-responsive center-block" src="imagenes/videos/5.png" alt="" /></a>
+                                                <div class="desc">
+                                                    <h5><small><a href="#">UNPRG dona 245 plantas ornamentales</a></small></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-3 col-xs-6 text-center">
+                                            <div class="album-cover">
+                                                <a href="gallery-album.html"><img class="img-responsive center-block" src="imagenes/videos/6.png" alt="" /></a>
+                                                <div class="desc">
+                                                    <h5><small><a href="#">Firma de Convenio Marco de Cooperación</a></small></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-3 col-xs-6 text-center">
+                                            <div class="album-cover">
+                                                <a href="gallery-album.html"><img class="img-responsive center-block" src="imagenes/videos/7.png" alt="" /></a>
+                                                <div class="desc">
+                                                    <h5><small><a href="#">SicanSnackS</a></small></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-3 col-xs-6 text-center">
+                                            <div class="album-cover">
+                                             <a href="gallery-album.html"><img class="img-responsive center-block" src="imagenes/videos/8.png" alt="" /></a>
+                                             <div class="desc">
+                                                <h5><small><a href="#">Presentación</a></small></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div><!--//item-->
+                                    
+                                </div><!--//carousel-inner-->
+                            </div><!--//testimonials-carousel-->
+                            <br>
+                           <a class="read-more text-right" target="_black" href="https://www.youtube.com/user/canalunprg"> <small><i class="fa fa-video-camera"></i></small> Mas videos</a>
+                        </div><!--//section-content-->
+                    </section><!--//testimonials-->
+
+                    <section class="links">
+                        <h1 class="section-heading text-highlight"><span class="line">Otros enlaces</span></h1>
+                        <div class="section-content">
+                            <p><a href="#"><i class="fa fa-caret-right"></i>E-learning Portal</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Gallery</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Job Vacancies</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Contact</a></p>
+                        </div><!--//section-content-->
+                    </section><!--//links-->
+
+
+                </div><!--//col-md-3-->
 
 
 
