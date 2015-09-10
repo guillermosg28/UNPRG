@@ -163,11 +163,15 @@
                     <section class="links line-m">
                         <h1 class="section-heading text-highlight"><span class="line">Servicios</span></h1>
                         <div class="section-content">
-                            <p><a rel="tooltip" data-placement="bottom" title="hola" href="#"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
-                            <p><a href="#"><i class="fa fa-book"></i> Blog de Docentes</a></p>
-                            <p><a href="#"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
-                            <p><a href="#"><i class="fa fa-university"></i> Sistema Academico</a></p>
-                            <p><a href="#"><i class="fa fa-lightbulb-o"></i> Selgestiun</a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Aula Virtual
+Para Alumnos y Docentes de la UNPRG"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Blog de Docentes
+  Para Docentes de la UNPRG"><i class="fa fa-book"></i> Blog de Docentes</a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Oferta de Empleos
+Para Alumnos y Egresados"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Registro de Notas
+  Matrículas, Historial Académico"><i class="fa fa-university"></i> Sistema Academico</a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Sistema de Investigación Docente"><i class="fa fa-lightbulb-o"></i> Selgestiun</a></p>
                         </div>
                     </section>
 
