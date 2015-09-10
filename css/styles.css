@@ -44,7 +44,7 @@ x fol p {
   font-size: 13px;
 }
 a {
-  color: #6091ba;
+  color: #0288D1;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -52,7 +52,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #365d7e;
+  color: #03A9F4;
 }
 a:focus {
   text-decoration: none;
