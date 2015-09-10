@@ -4,14 +4,14 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->  
 <head>
-    <title>Facultad de Ingenieria de Zootecnia | UNPRG</title>
+    <title>Universidad Nacional Pedro Ruiz Gallo | UNPRG</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
+    <meta name="author" content="">      
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>   
     <!-- Global CSS -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
