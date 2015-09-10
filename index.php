@@ -41,9 +41,6 @@
                         <a href="#"><i class="fa fa-youtube youtube"></i></a>
                     </ul>
 
-
-
-
                     <form class="pull-right search-form" role="search">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Buscar...">
@@ -145,7 +142,74 @@
         </nav><!--//main-nav-->
 
 
+        <!-- ******CONTENIDO****** -->
+        <div class="content container">
 
+            <!-- SLIDER Y MENU-->
+            <section class="promo box">        
+                <div class="col-md-9">
+                SLIDER DE NOTICIAS  
+                </div>  
+                <div class="col-md-3">
+                MENU EVENTOS NOTICIAS  
+                </div>
+            </section>
+            <!-- FIN SLIDER Y MENU-->
+
+            <div class="row cols-wrapper">
+
+                <div class="col-md-3">
+                    <section class="events line-m">
+                        <h1 class="section-heading text-highlight"><span class="line">Agenda</span></h1>
+                        <div class="section-content">
+                            <div class="event-item">
+                                <p class="date-label">
+                                    <span class="month">SEP</span>
+                                    <span class="date-number">18</span>
+                                </p>
+                                <div class="details">
+                                    <h2 class="title">Conferencia 1</h2>
+                                    <p class="time"><i class="fa fa-clock-o"></i>10:00am - 1:00pm</p>
+                                    <p class="location"><i class="fa fa-map-marker"></i>Auditorio UNPRG</p>                            
+                                </div><!--//details-->
+                            </div><!--event-item-->  
+                            <div class="event-item">
+                                <p class="date-label">
+                                    <span class="month">SEP</span>
+                                    <span class="date-number">25</span>
+                                </p>
+                                <div class="details">
+                                    <h2 class="title">Conferencia 2</h2>
+                                    <p class="time"><i class="fa fa-clock-o"></i>8:00am - 10:ampm</p>
+                                    <p class="location"><i class="fa fa-map-marker"></i>Auditorio FICSA</p>                            
+                                </div><!--//details-->
+                            </div><!--event-item-->
+
+                    </section><!--//events-->
+
+                    <section class="links line-m">
+                        <h1 class="section-heading text-highlight"><span class="line">Servicios</span></h1>
+                        <div class="section-content">
+                            <p><a href="#"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
+                            <p><a href="#"><i class="fa fa-book"></i> Blog de Docentes</a></p>
+                            <p><a href="#"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
+                            <p><a href="#"><i class="fa fa-university"></i> Sistema Academico</a></p>
+                            <p><a href="#"><i class="fa fa-lightbulb-o"></i> Selgestiun</a></p>
+                        </div><!--//section-content-->
+                    </section><!--//links-->
+                </div><!--//col-md-3-->
+
+
+
+            </div><!-- fin cols-wrapper-->
+
+
+
+
+
+
+
+        </div> <!-- fin container-->
     </div> <!-- fin wrapper -->
 
 
