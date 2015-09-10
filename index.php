@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->  
 <head>
     <title>Facultad de Ingenieria de Zootecnia | UNPRG</title>
     <!-- Meta -->
@@ -135,7 +135,7 @@
                                 <li><a href="#">Nuevo Estatuto 2014</a></li>         
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="contact.html">RADIO UNIVERSITARIA</a></li>
+                        <li class="nav-item"><a href="#">RADIO UNIVERSITARIA</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </div><!--//container-->
@@ -145,15 +145,92 @@
         <!-- ******CONTENIDO****** -->
         <div class="content container">
 
-            <!-- SLIDER Y MENU-->
-            <section class="promo box">        
-                <div class="col-md-9">
-                SLIDER DE NOTICIAS  
-                </div>  
-                <div class="col-md-3">
-                MENU EVENTOS NOTICIAS  
-                </div>
-            </section>
+    
+            <div class="row cols-wrapper">
+
+                <div class="col-md-9 col-sm-12 col-xs-12">
+
+                    <div id="promo-slider" class="slider flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="imagenes/slider/1.jpg"  alt="" />
+                        <p class="flex-caption">
+                            <span class="main" >Titulo 1...</span>
+                            <br />
+                            <span class="secondary clearfix" >Descripcion 1............................</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imagenes/slider/2.jpg"  alt="" />
+                        <p class="flex-caption">
+                            <span class="main" >Titulo 2...</span>
+                            <br />
+                            <span class="secondary clearfix" >Descripcion 2............................</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imagenes/slider/3.jpg"  alt="" />
+                        <p class="flex-caption">
+                            <span class="main" >Titulo 3...</span>
+                            <br />
+                            <span class="secondary clearfix" >Descripcion 3............................</span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imagenes/slider/4.jpg"  alt="" />
+                        <p class="flex-caption">
+                            <span class="main" >Titulo 4...</span>
+                            <br />
+                            <span class="secondary clearfix" >Descripcion 4............................</span>
+                        </p>
+                    </li>
+                </ul><!--//slides-->
+            </div><!--//flexslider-->
+
+        </div>
+
+        <div class="col-md-3 col-sm-12 col-xs-12">
+            <section class="testimonials">
+                        <h1 class="section-heading text-highlight"><span class="line"> Avisos</span></h1>
+                        <div class="carousel-controls">
+                            <a class="prev" href="#testimonials-carousel" data-slide="prev"><i class="fa fa-caret-left"></i></a>
+                            <a class="next" href="#testimonials-carousel" data-slide="next"><i class="fa fa-caret-right"></i></a>
+                        </div><!--//carousel-controls-->
+                        <div class="section-content medidacuadro">
+                            <div id="testimonials-carousel" class="testimonials-carousel carousel slide">
+                                <div class="carousel-inner">
+
+                                    <div class="item active">
+                                        <div class="col-md-12 text-center">
+                                            <img class="img-responsive center-block" src="imagenes/avisos/1.jpg">
+                                        </div>
+
+                                    </div><!--//item-->
+
+                                    <div class="item">
+                                        <div class="item active">
+                                            <img class="img-responsive center-block" src="imagenes/avisos/2.jpg">
+                                        </div>
+                                    </div><!--//item-->
+
+                                    <div class="item">
+                                        <div class="item active">
+                                            <img class="img-responsive center-block" src="imagenes/avisos/3.jpg">
+                                        </div>
+                                    </div><!--//item-->
+
+                                </div><!--//carousel-inner-->
+                            </div><!--//testimonials-carousel-->
+
+                        </div><!--//section-content-->
+                    </section>
+
+        </div>
+
+
+</div>
+
+            
             <!-- FIN SLIDER Y MENU-->
 
             <div class="row cols-wrapper">
@@ -371,25 +448,63 @@ Para Alumnos y Egresados"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
                             </ul><!--//slides-->
                         </div><!--//item-->
                         
-                    </div><!--//carousel-inner-->
-                    <a class="left carousel-control" href="#awards-carousel" data-slide="prev">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a class="right carousel-control" href="#awards-carousel" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-        
+                    </div><!--//carousel-inner-->        
                 </div>
             </section>
-
-
-
 
         </div> <!-- fin container-->
     </div> <!-- fin wrapper -->
 
 
+<!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                <div class="footer-col col-md-4 col-sm-4 contact">
+                    <div class="footer-col-inner">
+                        <h3 class="lineafooter">UNPRG</h3>
+                        <div class="row">
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-map-marker"></i> Calle Juan XXIII 391 Lambayeque</p>
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-phone"></i> 283146 - 283115 - 282120 - 282356</p>
+                            <p class="email col-md-12 col-sm-12"><i class="fa fa-envelope"></i><a href="#"> webmaster@unprg.edu.pe</a></p>  
+                        </div> 
+                    </div> 
+                </div>
 
+                <div class="footer-col col-md-4 col-sm-4 nosotros">
+                    <div class="footer-col-inner">
+                        <h3 class="lineafooter">Nosotros</h3>
+                        <div class="row">
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Rectorado</a></p>
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Vicerrectorado Académico</a></p>
+                            <p class="email col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Bienestar Universitario</a></p>  
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="footer-col col-md-4 col-sm-4 enlaces">
+                    <div class="footer-col-inner">
+                        <h3 class="lineafooter">Enlaces directos</h3>
+                        <div class="row">
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Inicio</a></p>
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Admision</a></p>
+                            <p class="email col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Correo institucional</a></p>  
+                        </div>
+                    </div>           
+                </div>  
+                </div>   
+            </div>        
+        </div><!--//footer-content-->
+        <div class="bottom-bar">
+            <div class="container">
+                <div class="row">
+                    <small class="copyright col-md-6 col-sm-12 col-xs-12">Copyright © 2015 www.unprg.edu.pe. All Rights Reserved. Oficina Central de Informática <a href="#">OCCI</a></small>
+
+                </div><!--//row-->
+            </div><!--//container-->
+        </div><!--//bottom-bar-->
+    </footer><!--//footer-->
 
 
     <!-- Javascript -->          
@@ -403,8 +518,5 @@ Para Alumnos y Egresados"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
     <script type="text/javascript" src="plugins/flexslider/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="plugins/jflickrfeed/jflickrfeed.min.js"></script> 
     <script type="text/javascript" src="js/main.js"></script>  
-
-
-
 </body>
 </html> 
