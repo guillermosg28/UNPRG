@@ -35,7 +35,7 @@
         <header class="header">  
             <div class="top-bar">
                 <div class="container"> 
-                    <ul class="social col-md-6 col-sm-6 col-xs-4">
+                    <ul class="social col-md-6 col-sm-6 col-xs-12">
                         <a href="#"><i class="fa fa-facebook facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter twitter"></i></a>
                         <a href="#"><i class="fa fa-youtube youtube"></i></a>
@@ -163,7 +163,7 @@
                     <section class="links line-m">
                         <h1 class="section-heading text-highlight"><span class="line">Servicios</span></h1>
                         <div class="section-content">
-                            <p><a href="#"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
+                            <p><a rel="tooltip" data-placement="bottom" title="hola" href="#"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
                             <p><a href="#"><i class="fa fa-book"></i> Blog de Docentes</a></p>
                             <p><a href="#"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
                             <p><a href="#"><i class="fa fa-university"></i> Sistema Academico</a></p>
@@ -309,18 +309,26 @@
                             <br>
                            <a class="read-more text-right" target="_black" href="https://www.youtube.com/user/canalunprg"> <small><i class="fa fa-video-camera"></i></small> Mas videos</a>
                         </div><!--//section-content-->
-                    </section><!--//testimonials-->
+                    </section>
+
+                    <section class="links">
+                        <h1 class="section-heading text-highlight"><span class="line">Resultados</span></h1>
+                        <div class="section-content">
+                            <p><a href="#"><i class="fa fa-caret-right"></i>CPU</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Exonerados</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Ordinario</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>5to secundaria</a></p>
+                        </div>
+                    </section>
 
                     <section class="links">
                         <h1 class="section-heading text-highlight"><span class="line">Otros enlaces</span></h1>
                         <div class="section-content">
-                            <p><a href="#"><i class="fa fa-caret-right"></i>E-learning Portal</a></p>
-                            <p><a href="#"><i class="fa fa-caret-right"></i>Gallery</a></p>
-                            <p><a href="#"><i class="fa fa-caret-right"></i>Job Vacancies</a></p>
-                            <p><a href="#"><i class="fa fa-caret-right"></i>Contact</a></p>
-                        </div><!--//section-content-->
-                    </section><!--//links-->
-
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Portal de transparencia</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>Autoridad Nacional del Agua</a></p>
+                            <p><a href="#"><i class="fa fa-caret-right"></i>CONCYTEC</a></p>
+                        </div>
+                    </section>
 
                 </div><!--//col-md-3-->
 
