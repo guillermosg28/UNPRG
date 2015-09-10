@@ -160,7 +160,7 @@
 
                 <div class="col-md-3">
 
-                    <section class="links line-m">
+                    <section class="links line-sub">
                         <h1 class="section-heading text-highlight"><span class="line">Servicios</span></h1>
                         <div class="section-content">
                             <p><a href="#" rel="tooltip" data-placement="right" title="Aula Virtual
@@ -175,7 +175,7 @@ Para Alumnos y Egresados"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
                         </div>
                     </section>
 
-                    <section class="events line-m">
+                    <section class="events line-sub">
                         <h1 class="section-heading text-highlight"><span class="line">Agenda</span></h1>
                         <div class="section-content">
                             <div class="event-item">
@@ -336,12 +336,51 @@ Para Alumnos y Egresados"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
 
                 </div><!--//col-md-3-->
 
-
-
             </div><!-- fin cols-wrapper-->
 
 
-
+<section class="awards">
+                <div id="awards-carousel" class="awards-carousel carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <ul class="logos">
+                                <li class="col-md-2 col-sm-2 col-xs-4">
+                                    <h5 class="linea-sub">I.E. PEDRO RUIZ GALLO</h5>
+                                    <a href="#"><img class="img-responsive" src="imagenes/enlaces/ieprg.png"/></a>
+                                </li>
+                                <li class="col-md-2 col-sm-2 col-xs-4">
+                                    <h5 class="linea-sub">PASTORAL UNIV.</h5>
+                                    <a href="#"><img class="img-responsive" src="imagenes/enlaces/pastoral.png"  alt="" /></a>
+                                </li>
+                                <li class="col-md-2 col-sm-2 col-xs-4">
+                                    <h5 class="linea-sub">FEDERACIÓN DOC.</h5>
+                                    <a href="#"><img class="img-responsive" src="imagenes/enlaces/fedurg.png"  alt="" /></a>
+                                </li>
+                                <li class="col-md-2 col-sm-2 col-xs-4">
+                                    <h5 class="linea-sub">SINDICATO UNPRG</h5>
+                                    <a href="#"><img class="img-responsive" src="imagenes/enlaces/sindicato.png"  alt="" /></a>
+                                </li>
+                                <li class="col-md-2 col-sm-2 col-xs-4">
+                                    <h5 class="linea-sub">ASAM. ESTATUTARIA</h5>
+                                    <a href="#"><img class="img-responsive" src="imagenes/enlaces/asamblea.png"  alt="" /></a>
+                                </li>
+                                <li class="col-md-2 col-sm-2 col-xs-4">
+                                    <h5 class="linea-sub">GALERIA DE FOTOS</h5>
+                                    <a href="#"><img class="img-responsive" src="imagenes/enlaces/galeria.png"  alt="" /></a>
+                                </li>             
+                            </ul><!--//slides-->
+                        </div><!--//item-->
+                        
+                    </div><!--//carousel-inner-->
+                    <a class="left carousel-control" href="#awards-carousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="right carousel-control" href="#awards-carousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+        
+                </div>
+            </section>
 
 
 

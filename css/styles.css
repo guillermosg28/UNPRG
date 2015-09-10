@@ -1491,6 +1491,11 @@ text-decoration:none;
 /*border-bottom:2px solid #30add1;*/
 background: #fff;
 }
+.linea-sub { /*linea menu*/
+  padding-bottom: 6px;
+border-bottom:2px solid #30add1;
+background: #fff;
+}
 .home-page .section-content {
   padding: 15px;
   padding-top: 0;
