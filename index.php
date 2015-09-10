@@ -163,7 +163,7 @@
                     <section class="links line-m">
                         <h1 class="section-heading text-highlight"><span class="line">Servicios</span></h1>
                         <div class="section-content">
-                            <p><a href="#"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
+                            <p><a href="#" rel="tooltip" data-placement="bottom" title="hola"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
                             <p><a href="#"><i class="fa fa-book"></i> Blog de Docentes</a></p>
                             <p><a href="#"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
                             <p><a href="#"><i class="fa fa-university"></i> Sistema Academico</a></p>
