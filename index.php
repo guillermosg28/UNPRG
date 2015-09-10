@@ -159,6 +159,18 @@
             <div class="row cols-wrapper">
 
                 <div class="col-md-3">
+
+                    <section class="links line-m">
+                        <h1 class="section-heading text-highlight"><span class="line">Servicios</span></h1>
+                        <div class="section-content">
+                            <p><a href="#"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
+                            <p><a href="#"><i class="fa fa-book"></i> Blog de Docentes</a></p>
+                            <p><a href="#"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
+                            <p><a href="#"><i class="fa fa-university"></i> Sistema Academico</a></p>
+                            <p><a href="#"><i class="fa fa-lightbulb-o"></i> Selgestiun</a></p>
+                        </div>
+                    </section>
+
                     <section class="events line-m">
                         <h1 class="section-heading text-highlight"><span class="line">Agenda</span></h1>
                         <div class="section-content">
@@ -182,22 +194,17 @@
                                     <h2 class="title">Conferencia 2</h2>
                                     <p class="time"><i class="fa fa-clock-o"></i>8:00am - 10:ampm</p>
                                     <p class="location"><i class="fa fa-map-marker"></i>Auditorio FICSA</p>                            
-                                </div><!--//details-->
-                            </div><!--event-item-->
+                                </div>
+                            </div>
+                    </section>
 
-                    </section><!--//events-->
-
-                    <section class="links line-m">
-                        <h1 class="section-heading text-highlight"><span class="line">Servicios</span></h1>
-                        <div class="section-content">
-                            <p><a href="#"><i class="fa fa-graduation-cap"></i> Aula Virtual</a></p>
-                            <p><a href="#"><i class="fa fa-book"></i> Blog de Docentes</a></p>
-                            <p><a href="#"><i class="fa fa-users"></i> Oferta de Empleos</a></p>
-                            <p><a href="#"><i class="fa fa-university"></i> Sistema Academico</a></p>
-                            <p><a href="#"><i class="fa fa-lightbulb-o"></i> Selgestiun</a></p>
-                        </div><!--//section-content-->
-                    </section><!--//links-->
                 </div><!--//col-md-3-->
+
+                <div class="col-md-6">
+                    <section class="course-finder">
+                        <h4 class="section-heading text-highlight"><span class="line">Instituto de Docencia, Investigacion y Proyeccion en Salud</span></h4>
+                    </section>
+                </div>
 
 
 

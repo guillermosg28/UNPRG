@@ -246,7 +246,7 @@ ul.custom-list-style li {
   font-size: 13px;
 }
 .date-label .month {
-  background: #6091ba;
+  background: #0288D1;
   color: #fff;
   display: block;
   font-size: 13px;
@@ -1478,7 +1478,7 @@ text-decoration:none;
   display: inline-block;
   padding-top: 5px;
   width: 100%;
-  border-bottom: 1px solid #e4e4e4;
+  border-bottom: 2px solid #30add1;
 
 }
 .home-page section {
@@ -1488,7 +1488,7 @@ text-decoration:none;
 
 }
 .line-m { /*linea menu*/
-border-bottom:2px solid #30add1;
+/*border-bottom:2px solid #30add1;*/
 background: #fff;
 }
 .home-page .section-content {
