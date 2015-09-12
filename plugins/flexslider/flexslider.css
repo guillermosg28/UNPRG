@@ -26,6 +26,7 @@
 .flexslider .slides img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
+
 /* Clearfix for the .slides element */
 .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
 html[xmlns] .slides {display: block;} 
@@ -73,4 +74,9 @@ html[xmlns] .slides {display: block;}
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
+}
+
+@media (min-width: 992px) {
+  .flexslider .slides img {width: 100%; display: block;height: 320px;}
+  }
 }
