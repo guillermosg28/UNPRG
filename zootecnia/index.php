@@ -1,31 +1,11 @@
-
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->  
 <head>
-    <title>Facultad de Ingenieria Zootecnia | UNPRG</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">      
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>   
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../plugins/bootstrap/css/font-awesome.css"> 
-    <!-- Plugins CSS -->    
-    <link rel="stylesheet" href="../plugins/flexslider/flexslider.css">
-    <link rel="stylesheet" href="../plugins/pretty-photo/css/prettyPhoto.css"> 
-    <!-- Diseño CSS -->  
-    <link id="theme-style" rel="stylesheet" href="css/styles.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<?
+@include_once("html/head.php");
+?>
 </head>
 
 <body class="home-page">
@@ -33,34 +13,9 @@
     <div class="wrapper">
         <!-- ******HEADER****** --> 
         <header class="header">  
-            <div class="top-bar">
-                <div class="container"> 
-                    <ul class="social col-md-6 col-sm-6 col-xs-12">
-                        <a href="#"><i class="fa fa-facebook facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter twitter"></i></a>
-                        <a href="#"><i class="fa fa-youtube youtube"></i></a>
-                    </ul>
-
-                    <form class="pull-right search-form" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Buscar...">
-                        </div>
-                        <button type="submit" class="btn btn-theme">Buscar</button>
-                    </form>         
-                </div>      
-            </div><!--//to-bar-->
-            <div class="header-main container">
-                <h1 class="logo col-md-4 col-sm-6">
-                    <a href="#"><img id="logo" class="img-responsive" src="imagenes/logo.png" alt="Logo"></a>
-                </h1><!--//logo-->           
-                <div class="info col-md-8 col-sm-6">
-                    <ul class="menu-top navbar-right">
-                        <li class="divider"><a href="#"><i class="fa fa-phone"></i> Directorio telefónico</a></li>
-                        <li class="divider"><a href="#"><i class="fa fa-envelope"></i> Correo Institucional</a></li>
-                        <li><a href="#"><i class="fa fa-building-o"></i> Actas</a></li>
-                    </ul><!--//menu-top-->
-                </div><!--//info-->
-            </div><!--//header-main-->
+<?
+@include_once("html/header.php");
+?>
         </header><!--//header-->
 
 
@@ -77,28 +32,19 @@
                 </div><!--//navbar-header-->            
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item"><a href="#">Inicio</a></li>
-                        <li class="nav-item"><a href="#">Autoridades</a></li>
-                        <li class="nav-item"><a href="#">Historia</a></li>
-                        <li class="nav-item"><a href="#">DAPA</a></li>
+                        <li class="active nav-item"><a href="index">Inicio</a></li>
+                        <li class="nav-item"><a href="autoridades">Autoridades</a></li>
+                        <li class="nav-item"><a href="historia">Historia</a></li>
+                        <li class="nav-item"><a href="convenios">Convenios</a></li>
                         <li class="nav-item"><a href="#">TESIS DE ALUMNOS</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Esc. Profesionales <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Esc. Profesional de Zootecnia</a></li>       
+                                <li><a href="e_zootecnia">Esc. Profesional de Zootecnia</a></li>       
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Oficinas <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Secretaria de Facultad</a></li>
-                                <li><a href="#">Oficina de Asuntos Pedagógicos</a></li>   
-                                <li><a href="#">Oficina de Investigación Pecuaria</a></li>
-                                <li><a href="#">Oficina de Administración</a></li> 
-                                <li><a href="#">Biblioteca Especializada</a></li>         
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="#">Laboratorio</a></li>
+                        <li class="nav-item"><a href="oficinas">Oficinas</a></li>
+                        <li class="nav-item"><a href="laboratorio">Laboratorio</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </div><!--//container-->
@@ -275,7 +221,7 @@
                                             </figure>
                                             <div class="details col-md-8 col-sm-8 col-xs-8">
                                                 <p>La Universidad Nacional Pedro Ruiz Gallo, con el objetivo de responder a los nuevos retos que nos plantea el siglo XXI, la ...</p>
-                                                <a class="btn btn-default btn-sm read-more" href="#">Mas detalles</a>
+                                                <a class="btn btn-default btn-sm read-more" href="convenios">Mas detalles</a>
                                             </div>
                                         </article>
                                     </div>
@@ -464,65 +410,15 @@
 
 <!-- ******FOOTER****** --> 
     <footer class="footer">
-        <div class="footer-content">
-            <div class="container">
-                <div class="row">
-                <div class="footer-col col-md-4 col-sm-4 contact">
-                    <div class="footer-col-inner">
-                        <h3 class="lineafooter">UNPRG</h3>
-                        <div class="row">
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-map-marker"></i> Calle Juan XXIII 391 Lambayeque</p>
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-phone"></i> 283146 - 283115 - 282120 - 282356</p>
-                            <p class="email col-md-12 col-sm-12"><i class="fa fa-envelope"></i><a href="#"> webmaster@unprg.edu.pe</a></p>  
-                        </div> 
-                    </div> 
-                </div>
-
-                <div class="footer-col col-md-4 col-sm-4 nosotros">
-                    <div class="footer-col-inner">
-                        <h3 class="lineafooter">Nosotros</h3>
-                        <div class="row">
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Rectorado</a></p>
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Vicerrectorado Académico</a></p>
-                            <p class="email col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Bienestar Universitario</a></p>  
-                        </div> 
-                    </div>
-                </div>
-
-                <div class="footer-col col-md-4 col-sm-4 enlaces">
-                    <div class="footer-col-inner">
-                        <h3 class="lineafooter">Enlaces directos</h3>
-                        <div class="row">
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Inicio</a></p>
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Admision</a></p>
-                            <p class="email col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Correo institucional</a></p>  
-                        </div>
-                    </div>           
-                </div>  
-                </div>   
-            </div>        
-        </div><!--//footer-content-->
-        <div class="bottom-bar">
-            <div class="container">
-                <div class="row">
-                    <small class="copyright col-md-6 col-sm-12 col-xs-12">Copyright © 2015 www.unprg.edu.pe. All Rights Reserved. Oficina Central de Informática <a href="#">OCCI</a></small>
-
-                </div><!--//row-->
-            </div><!--//container-->
-        </div><!--//bottom-bar-->
+<?
+@include_once("html/footer.php");
+?>
     </footer><!--//footer-->
 
 
     <!-- Javascript -->          
-    <script type="text/javascript" src="../plugins/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="../plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="../plugins/bootstrap/js/bootstrap.min.js"></script> 
-    <script type="text/javascript" src="../plugins/bootstrap-hover-dropdown.min.js"></script> 
-    <script type="text/javascript" src="../plugins/back-to-top.js"></script>
-    <script type="text/javascript" src="../plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="../plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="../plugins/flexslider/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="../plugins/jflickrfeed/jflickrfeed.min.js"></script> 
-    <script type="text/javascript" src="js/main.js"></script>  
+<?
+@include_once("html/js.php");
+?>
 </body>
 </html> 
