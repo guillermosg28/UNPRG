@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->  
 <head>
-<?
+<?php
 @include_once("html/head.php");
 ?>
 </head>
@@ -13,7 +13,7 @@
     <div class="wrapper">
         <!-- ******HEADER****** --> 
         <header class="header">  
-<?
+<?php
 @include_once("html/header.php");
 ?>
         </header><!--//header-->
@@ -35,8 +35,15 @@
                         <li class="nav-item"><a href="index">Inicio</a></li>
                         <li class="nav-item"><a href="autoridades">Autoridades</a></li>
                         <li class="nav-item"><a href="historia">Historia</a></li>
-                        <li class="nav-item"><a href="convenios">Convenios</a></li>
-                        <li class="nav-item"><a href="#">TESIS DE ALUMNOS</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Servicios <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="convenios">Convenios</a></li>
+                                <li><a href="tesis_alumno">Tesis de Alumnos</a></li>
+                                <li><a href="sistema_academico">Sistema Academico</a></li>  
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="docentes">Plana docente</a></li>
                         <li class="active nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Esc. Profesionales <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
@@ -83,13 +90,13 @@ En nuestra Facultad buscamos jóvenes para transformarlos en profesionistas capa
 
 <!-- ******FOOTER****** --> 
     <footer class="footer">
-<?
+<?php
 @include_once("html/footer.php");
 ?>
     </footer><!--//footer-->
 
     <!-- Javascript -->          
-<?
+<?php
 @include_once("html/js.php");
 ?>
 </body>

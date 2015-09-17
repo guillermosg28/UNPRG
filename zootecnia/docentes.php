@@ -38,12 +38,12 @@
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Servicios <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="convenios">Convenios</a></li>
+                                <li><a href="convenios">Convenios</a></li> 
                                 <li><a href="tesis_alumno">Tesis de Alumnos</a></li>
-                                <li><a href="sistema_academico">Sistema Academico</a></li>   
+                                <li><a href="sistema_academico">Sistema Academico</a></li> 
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="docentes">Plana docente</a></li>
+                        <li class="active nav-item"><a href="docentes">Plana docente</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Esc. Profesionales <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
@@ -51,7 +51,7 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a href="oficinas">Oficinas</a></li>
-                        <li class="active nav-item"><a href="laboratorio">Laboratorio</a></li>
+                        <li class="nav-item"><a href="laboratorio">Laboratorio</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </div><!--//container-->
@@ -62,25 +62,56 @@
         <div class="content container">
             <div class="page-wrapper">
                 <header class="page-heading clearfix">
-                    <h1 class="heading-title pull-left">Laboratorio</h1>
+                    <h1 class="heading-title pull-left">Plana Docente</h1>
                 </header> 
                 <div class="page-content">                 
-                    <div class="row page-row">                     
-                        <div class="privacy-wrapper col-md-12">     
-                            <div class="page-row">
-                                <p class="text-justify">
-                                    <b>Laboratorio de Nutrición:</b> Brinda el servicio de analisis varios a diferentes empresas y publico en general dar  clic en enlase.<br>
-                                    <b>Laboratorio de Lecheria:</b><br>
-                                    <b>Unidad Lacteos:</b><br>
-                                    <b>Laboratorio de Productos Carnicos:</b><br>
-                                    <b>Centro de Computo:</b>
-                                </p>
+                    <div class="row page-row highlights">   
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Nombres y Apellidos</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
                             </div>
-                        </div><!--//privacy-wrapper-->
-                      
-                    </div><!--//page-row-->
-                </div><!--//page-content-->
-                
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Nombres y Apellidos</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Nombres y Apellidos</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Nombres y Apellidos</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                    </div><!--//page-content-->
+                </div> 
             </div><!--//page--> 
 
         </div> <!-- fin container-->
@@ -99,4 +130,4 @@
 @include_once("html/js.php");
 ?>
 </body>
-</html> 
+</html>

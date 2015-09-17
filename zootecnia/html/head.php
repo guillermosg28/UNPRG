@@ -8,11 +8,11 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>   
     <!-- Global CSS -->
-    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../plugins/bootstrap/css/font-awesome.css"> 
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap/css/font-awesome.css"> 
     <!-- Plugins CSS -->    
-    <link rel="stylesheet" href="../plugins/flexslider/flexslider.css">
-    <link rel="stylesheet" href="../plugins/pretty-photo/css/prettyPhoto.css"> 
+    <link rel="stylesheet" href="plugins/flexslider/flexslider.css">
+    <link rel="stylesheet" href="plugins/pretty-photo/css/prettyPhoto.css"> 
     <!-- Diseño CSS -->  
     <link id="theme-style" rel="stylesheet" href="css/styles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

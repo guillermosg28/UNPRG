@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->  
 <head>
-<?
+<?php
 @include_once("html/head.php");
 ?>
 </head>
@@ -13,7 +13,7 @@
     <div class="wrapper">
         <!-- ******HEADER****** --> 
         <header class="header">  
-<?
+<?php
 @include_once("html/header.php");
 ?>
         </header><!--//header-->
@@ -35,8 +35,15 @@
                         <li class="nav-item"><a href="index">Inicio</a></li>
                         <li class="nav-item"><a href="autoridades">Autoridades</a></li>
                         <li class="active nav-item"><a href="historia">Historia</a></li>
-                        <li class="nav-item"><a href="convenios">Convenios</a></li>
-                        <li class="nav-item"><a href="#">TESIS DE ALUMNOS</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Servicios <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="convenios">Convenios</a></li>
+                                <li><a href="tesis_alumno">Tesis de Alumnos</a></li>
+                                <li><a href="sistema_academico">Sistema Academico</a></li>  
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="docentes">Plana docente</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Esc. Profesionales <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
@@ -70,7 +77,7 @@ La Resolución N° 7-1967 del 18 de Enero de 1967 de la Universidad Agraria del 
 Por Resolución N° 130-1969 del 23 de Abril de 1969 se resuelve crear el Departamento de Zootecnia.
 La Resolución N° 005-2003-AU del 16 de Abril del 2003 la Universidad Nacional Pedro Ruiz Gallo, que por acuerdo de la sesión de fecha 15 de Abril del 2003, la Asamblea Universitaria acordó por unanimidad modificar el nombre a  FACULTAD DE INGENIERIA ZOOTECNIA con la ESCUELA PROFESIONAL DE INGENIERIA ZOOTECNIA. 
                                 </p> 
-                                <img class="img-responsive center-block" src="imagenes/historia.jpg"> 
+                                <a class="prettyphoto" rel="prettyPhoto[gallery]" title="Facultad de Zootecnia" href="imagenes/historia.jpg"><img class="img-responsive center-block" src="imagenes/historia.jpg"></a>
                             </div>
                         </div><!--//privacy-wrapper-->
                       
@@ -85,13 +92,13 @@ La Resolución N° 005-2003-AU del 16 de Abril del 2003 la Universidad Nacional 
 
 <!-- ******FOOTER****** --> 
     <footer class="footer">
-<?
+<?php
 @include_once("html/footer.php");
 ?>
     </footer><!--//footer-->
 
     <!-- Javascript -->          
-<?
+<?php
 @include_once("html/js.php");
 ?>
 </body>
