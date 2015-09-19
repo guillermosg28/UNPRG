@@ -1,6 +1,6 @@
 var map;
 $(document).ready(function() {
-
+    $('#myModal').modal('show');
     /* ======= Flexslider ======= */
     $('.flexslider').flexslider({
         animation: "fade"
