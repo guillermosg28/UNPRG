@@ -63,7 +63,7 @@
         <div class="content container">
             <div class="page-wrapper">
                 <header class="page-heading clearfix">
-                    <h1 class="heading-title pull-left">Convenios</h1>
+                    <h1 class="heading-title pull-left">Tesis Alumnos</h1>
                 </header> 
                 <div class="page-content">                 
                     <div class="row page-row">                     

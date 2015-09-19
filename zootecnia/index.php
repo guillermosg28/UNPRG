@@ -9,7 +9,6 @@
 </head>
 
 <body class="home-page">
-
     <div class="wrapper">
         <!-- ******HEADER****** --> 
         <header class="header">  
@@ -32,26 +31,27 @@
                 </div><!--//navbar-header-->            
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item"><a href="index">Inicio</a></li>
-                        <li class="nav-item"><a href="autoridades">Autoridades</a></li>
-                        <li class="nav-item"><a href="historia">Historia</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Servicios <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="convenios">Convenios</a></li>
-                                <li><a href="tesis_alumno">Tesis de Alumnos</a></li>
-                                <li><a href="sistema_academico">Sistema Academico</a></li>    
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="docentes">Plana docente</a></li>
+                        <li class="active nav-item"><a href="index.php">Inicio</a></li>
+                        <li class="nav-item"><a href="historia.php">Historia</a></li>
+                        <li class="nav-item"><a href="autoridades.php">Autoridades</a></li>
+                        <li class="nav-item"><a href="docentes.php">Plana docente</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Esc. Profesionales <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="e_zootecnia">Esc. Profesional de Zootecnia</a></li>       
+                                <li><a href="e_zootecnia.php">Esc. Profesional de Zootecnia</a></li>       
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="oficinas">Oficinas</a></li>
-                        <li class="nav-item"><a href="laboratorio">Laboratorio</a></li>
+                        <li class="nav-item"><a href="oficinas.php">Oficinas</a></li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Servicios <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="convenios.php">Convenios</a></li>
+                                <li><a href="tesis_alumno.php">Tesis de Alumnos</a></li>
+                                <li><a href="sistema_academico.php">Sistema Academico</a></li>    
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="postgrado.php">PostGrado</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </div><!--//container-->
@@ -62,7 +62,7 @@
         <div class="content container">
             <div class="row cols-wrapper">
 
-                <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-sli col-sm-12 col-xs-12">
 
                     <div id="promo-slider" class="slider flexslider">
                         <ul class="slides">
@@ -92,11 +92,53 @@
                             </li>
                         </ul><!--//slides-->
                     </div><!--//flexslider-->
+
+                    </div>
+
+                    <div class="col-md-no col-sm-12 col-xs-12">
+                        <section class="testimonials">
+                        <h1 class="section-heading text-highlight"><span class="line">Noticias</span></h1>
+                        <div class="carousel-controls">
+                            <a class="prev" href="#noticias-carousel" data-slide="prev"><i class="fa fa-caret-left"></i></a>
+                            <a class="next" href="#noticias-carousel" data-slide="next"><i class="fa fa-caret-right"></i></a>
+                        </div><!--//carousel-controls-->
+                        <div class="section-content medidacuadro">
+                            <div id="noticias-carousel" class="testimonials-carousel carousel slide">
+                                <div class="carousel-inner" style="height:260px;">
+
+                                    <div class="item active">
+                                        <div class="item active">
+                                            <img class="img-responsive center-block" src="imagenes/avisos/1.jpg">
+                                        </div>
+
+                                    </div><!--//item-->
+
+                                    <div class="item">
+                                        <div class="item active">
+                                            <img class="img-responsive center-block" src="imagenes/avisos/2.jpg">
+                                        </div>
+                                    </div><!--//item-->
+
+                                    <div class="item">
+                                        <div class="item active">
+                                            <img class="img-responsive center-block" src="imagenes/avisos/3.jpg">
+                                        </div>
+                                    </div><!--//item-->
+
+                                </div><!--//carousel-inner-->
+                            </div><!--//testimonials-carousel-->
+
+                        </div><!--//section-content-->
+                    </section>
+                    </div>
+
+                    <div class="col-md-12" style="padding-right:0px;padding-left:0px;">
                     
                     <section style="background:#fff;">
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                             <div class="admision">
                                 <a href="#"></a>
+                                <img src="imagenes/botones/admision.jpg" class="img-responsive">
                                 <div class="pricing-table-header-tiny">
                                 <div class="menuprincipal">ADMISION</div>
                                 </div>
@@ -106,6 +148,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                             <div class="cpu">
                                 <a href="#"></a>
+                                <img src="imagenes/botones/cpu.jpg" class="img-responsive">
                                 <div class="pricing-table-header-small">
                                 <div class="menuprincipal">CPU</div>
                             </div>
@@ -115,6 +158,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                             <div class="pregrado">
                                 <a href="#"></a>
+                                <img src="imagenes/botones/pregrado.jpg" class="img-responsive">
                                 <div class="pricing-table-header-medium">
                                 <div class="menuprincipal">PRE GRADO</div>
                                 </div>
@@ -124,6 +168,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                             <div class="postgrado">
                                 <a href="#"></a>
+                                <img src="imagenes/botones/postgrado.jpg" class="img-responsive">
                                 <div class="pricing-table-header-pro">
                                     <div class="menuprincipal">POST GRADO</div>
                                 </div>
@@ -142,7 +187,7 @@
                 <div class="col-md-3">
 
                     <section class="links">
-                        <a href="sistema_academico" class="btn btn-warning btn-block btn-lg" rel="tooltip" data-placement="right" title="Registro de Notas Matrículas, Historial Académico"><i class="fa fa-university"></i> Sistema Academico</a>
+                        <a href="sistema_academico.php" class="btn btn-warning btn-block btn-lg" rel="tooltip" data-placement="right" title="Registro de Notas Matrículas, Historial Académico"><i class="fa fa-university"></i> Sistema Academico</a>
                         <br>
                         <button type="button" class="btn btn-info btn-block btn-lg" rel="tooltip" data-placement="right" title="Sistema de Investigación Docente"><i class="fa fa-lightbulb-o"></i> Selgestiun</button>
                     </section>
@@ -207,10 +252,10 @@
                                 <div class="row page-row">
                                     <div class="news-wrapper col-md-12 col-sm-12">
                                         <article class="news-item page-row has-divider clearfix row">
-                                            <figure class="thumb col-md-4 col-sm-4 col-xs-4">
+                                            <figure class="thumb col-md-6 col-sm-4 col-xs-4">
                                                 <img class="img-responsive" src="imagenes/menu-centro/idipsa.jpg" alt="" />
                                             </figure>
-                                            <div class="details col-md-8 col-sm-8 col-xs-8">
+                                            <div class="details col-md-6 col-sm-8 col-xs-8">
                                                 <p>El Dr. Agustín Ramos García, Rector de la Universidad Nacional Pedro Ruiz Gallo, Decanos de las Facultades de Medicina, Enfermería y ...</p>
                                                 <a class="btn btn-default btn-sm read-more" href="#">Mas detalles</a>
                                             </div>
@@ -231,12 +276,12 @@
                                 <div class="row page-row">
                                     <div class="news-wrapper col-md-12 col-sm-12">
                                         <article class="news-item page-row has-divider clearfix row">
-                                            <figure class="thumb col-md-4 col-sm-4 col-xs-4">
+                                            <figure class="thumb col-md-6 col-sm-4 col-xs-4">
                                                 <img class="img-responsive" src="imagenes/menu-centro/convenios.jpg" alt="" />
                                             </figure>
-                                            <div class="details col-md-8 col-sm-8 col-xs-8">
+                                            <div class="details col-md-6 col-sm-8 col-xs-8">
                                                 <p>La Universidad Nacional Pedro Ruiz Gallo, con el objetivo de responder a los nuevos retos que nos plantea el siglo XXI, la ...</p>
-                                                <a class="btn btn-default btn-sm read-more" href="convenios">Mas detalles</a>
+                                                <a class="btn btn-default btn-sm read-more" href="convenios.php">Mas detalles</a>
                                             </div>
                                         </article>
                                     </div>
@@ -255,10 +300,10 @@
                                 <div class="row page-row">
                                     <div class="news-wrapper col-md-12 col-sm-12">
                                         <article class="news-item page-row has-divider clearfix row">
-                                            <figure class="thumb col-md-4 col-sm-4 col-xs-4">
+                                            <figure class="thumb col-md-6 col-sm-4 col-xs-4">
                                                 <img class="img-responsive" src="imagenes/menu-centro/bienestar.jpg" alt="" />
                                             </figure>
-                                            <div class="details col-md-8 col-sm-8 col-xs-8">
+                                            <div class="details col-md-6 col-sm-8 col-xs-8">
                                                 <p>La oficina Central de Bienestar Universitario (OCBU) liderada por la ingeniero María Julia Jaramillo Carrión, cumple los objetivos ...</p>
                                                 <a class="btn btn-default btn-sm read-more" href="#">Mas detalles</a>
                                             </div>
@@ -279,12 +324,12 @@
                                 <div class="row page-row">
                                     <div class="news-wrapper col-md-12 col-sm-12">
                                         <article class="news-item page-row has-divider clearfix row">
-                                            <figure class="thumb col-md-4 col-sm-4 col-xs-4">
+                                            <figure class="thumb col-md-6 col-sm-4 col-xs-4">
                                                 <img class="img-responsive" src="imagenes/menu-centro/convenios.jpg" alt="" />
                                             </figure>
-                                            <div class="details col-md-8 col-sm-8 col-xs-8">
+                                            <div class="details col-md-6 col-sm-8 col-xs-8">
                                                 <p>La Universidad Nacional Pedro Ruiz Gallo, con el objetivo de responder a los nuevos retos que nos plantea el siglo XXI, la ...</p>
-                                                <a class="btn btn-default btn-sm read-more" href="convenios">Mas detalles</a>
+                                                <a class="btn btn-default btn-sm read-more" href="convenios.php">Mas detalles</a>
                                             </div>
                                         </article>
                                     </div>
@@ -303,10 +348,10 @@
                                 <div class="row page-row">
                                     <div class="news-wrapper col-md-12 col-sm-12">
                                         <article class="news-item page-row has-divider clearfix row">
-                                            <figure class="thumb col-md-4 col-sm-4 col-xs-4">
+                                            <figure class="thumb col-md-6 col-sm-4 col-xs-4">
                                                 <img class="img-responsive" src="imagenes/menu-centro/bienestar.jpg" alt="" />
                                             </figure>
-                                            <div class="details col-md-8 col-sm-8 col-xs-8">
+                                            <div class="details col-md-6 col-sm-8 col-xs-8">
                                                 <p>La oficina Central de Bienestar Universitario (OCBU) liderada por la ingeniero María Julia Jaramillo Carrión, cumple los objetivos ...</p>
                                                 <a class="btn btn-default btn-sm read-more" href="#">Mas detalles</a>
                                             </div>
@@ -320,41 +365,6 @@
                 </div><!--//col-md-6-->
 
                 <div class="col-md-3">
-
-                    <section class="testimonials">
-                        <h1 class="section-heading text-highlight"><span class="line">Noticias</span></h1>
-                        <div class="carousel-controls">
-                            <a class="prev" href="#noticias-carousel" data-slide="prev"><i class="fa fa-caret-left"></i></a>
-                            <a class="next" href="#noticias-carousel" data-slide="next"><i class="fa fa-caret-right"></i></a>
-                        </div><!--//carousel-controls-->
-                        <div class="section-content medidacuadro">
-                            <div id="noticias-carousel" class="testimonials-carousel carousel slide">
-                                <div class="carousel-inner" style="height:200px;">
-
-                                    <div class="item active">
-                                        <div class="item active">
-                                            <img class="img-responsive center-block" src="imagenes/avisos/1.jpg">
-                                        </div>
-
-                                    </div><!--//item-->
-
-                                    <div class="item">
-                                        <div class="item active">
-                                            <img class="img-responsive center-block" src="imagenes/avisos/2.jpg">
-                                        </div>
-                                    </div><!--//item-->
-
-                                    <div class="item">
-                                        <div class="item active">
-                                            <img class="img-responsive center-block" src="imagenes/avisos/3.jpg">
-                                        </div>
-                                    </div><!--//item-->
-
-                                </div><!--//carousel-inner-->
-                            </div><!--//testimonials-carousel-->
-
-                        </div><!--//section-content-->
-                    </section>
 
                     <section class="testimonials">
                         <h1 class="section-heading text-highlight"><span class="line"> Galerias</span></h1>
@@ -455,6 +465,17 @@
                         <button type="button" class="btn btn-danger btn-block btn-lg" rel="tooltip" data-placement="right" title="Directorio Telefonico"><i class="fa fa-phone"></i> Directorio Telefonico</button>
                     </section>
 
+                    <section class="links" style="background:#fff;">
+                        <h1 class="section-heading text-highlight"><span class="line">Otros enlaces</span></h1>
+                        <div class="section-content">
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Concytec"><img class="img-responsive center-block" src="imagenes/interes/concytec.png"></a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Asociación de Estudiantes Investigadores"><img class="img-responsive center-block" src="imagenes/interes/aeinv.png"></a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Acceso Libre a Informacion Cientifica para la Innovacion"><img class="img-responsive center-block" src="imagenes/interes/alicia.png"></a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Science Direct"><img class="img-responsive center-block" src="imagenes/interes/sciencedirect.png"></a></p>
+                            <p><a href="#" rel="tooltip" data-placement="right" title="Scopus"><img class="img-responsive center-block" src="imagenes/interes/scopus.png"></a></p>
+                        </div>
+                    </section>
+
                 </div><!--//col-md-3-->
 
             </div><!-- fin cols-wrapper-->
@@ -497,7 +518,6 @@
 
         </div> <!-- fin container-->
     </div> <!-- fin wrapper -->
-
 
 <!-- ******FOOTER****** --> 
     <footer class="footer">

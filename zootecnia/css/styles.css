@@ -1010,11 +1010,12 @@ text-decoration:none;
 }
 .flexslider .slides .flex-caption {
   position: absolute;
-  left: 30px;
-  bottom: 30px;
+  left: 0px;
+  bottom: -10px;
   color: #fff;
   display: inline-block;
   font-family: 'open sans', arial, sans-serif;
+  width: 100%;
 }
 .flexslider .slides .flex-caption .main {
   display: inline-block;
@@ -1022,7 +1023,7 @@ text-decoration:none;
   margin-bottom: 5px;
   padding: 10px 15px;
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: uppercase; 
 }
 .flexslider .slides .flex-caption .secondary {
   display: inline-block;
@@ -1030,6 +1031,7 @@ text-decoration:none;
   padding: 5px 15px;
   color: #fff;
   font-size: 16px;
+  width: 100%;
 }
 .flexslider .slides .promo-badge {
   position: absolute;
@@ -2149,39 +2151,42 @@ div.admision a, div.cpu a, div.postgrado a, div.pregrado a  {
     text-decoration: none;
     z-index: 50;
     background-color: white;
-    opacity: 0;
+    opacity: 0.2;
     filter: alpha(opacity=1);   
+}
+div.admision a:hover, div.cpu a:hover, div.postgrado a:hover, div.pregrado a:hover  {
+    opacity: 0;
 }
 .pricing-table-header-tiny {
     padding: 2px 0 2px 0;
     background: #16a085;
-    border-bottom:10px solid #14937a;
+    /*border-bottom:10px solid #14937a;*/
 }
 .pricing-table-header-small {
     padding: 2px 0 2px 0;
     background: #f39c12;
-    border-bottom:10px solid #cd8109;
+    /*border-bottom:10px solid #cd8109;*/
 
 }
 .pricing-table-header-medium {
     padding: 2px 0 2px 0;
     background: #c0392b;
-  border-bottom:10px solid #a12f23;
+  /*border-bottom:10px solid #a12f23;*/
 
 }
 
 .pricing-table-header-pro {
     padding: 2px 0 2px 0;
     background: #2980b9;
-  border-bottom:10px solid #1d6391;
+  /*border-bottom:10px solid #1d6391;*/
 }
 .menuprincipal{
     text-transform: uppercase;
     font-weight: 700;
     font-family: Open Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     text-shadow: 0 1px 1px #555, 0 1px 1px #555;
     color: #fff;
 }
@@ -2236,7 +2241,7 @@ div.admision a, div.cpu a, div.postgrado a, div.pregrado a  {
 }
 
 .botonrojo{
-    background: none repeat scroll 0 0 #D32F2F;
+    background: none repeat scroll 0 0 #AD1457;
 }
 
 .highlights{
@@ -2250,7 +2255,7 @@ div.admision a, div.cpu a, div.postgrado a, div.pregrado a  {
     color:#ffffff;
 }
 .highlights div:hover .highlights-content{
-    background: #F44336;
+    background: #e91e63;
     color:#FEFEFE;
 }
 .highlights>div:hover img[class^='hl'],.highlights>div:hover a[class^='hl']{

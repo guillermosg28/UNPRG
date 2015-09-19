@@ -3,11 +3,11 @@
                 <div class="row">
                 <div class="footer-col col-md-4 col-sm-4 contact">
                     <div class="footer-col-inner">
-                        <h3 class="lineafooter">UNPRG</h3>
+                        <h3 class="lineafooter">FIZ - UNPRG</h3>
                         <div class="row">
                             <p class="tel col-md-12 col-sm-12"><i class="fa fa-map-marker"></i> Calle Juan XXIII 391 Lambayeque</p>
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-phone"></i> 283146 - 283115 - 282120 - 282356</p>
-                            <p class="email col-md-12 col-sm-12"><i class="fa fa-envelope"></i><a href="#"> webmaster@unprg.edu.pe</a></p>  
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-phone"></i> (51)(74) 28-3614</p>
+                            <p class="email col-md-12 col-sm-12"><i class="fa fa-envelope"></i><a href="#"> fizfzootecnia@unprg.edu.pe</a></p>  
                         </div> 
                     </div> 
                 </div>
@@ -16,20 +16,20 @@
                     <div class="footer-col-inner">
                         <h3 class="lineafooter">Nosotros</h3>
                         <div class="row">
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Rectorado</a></p>
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Vicerrectorado Académico</a></p>
-                            <p class="email col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Bienestar Universitario</a></p>  
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="autoridades.php"> Autoridades</a></p>
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="historia.php"> Historia</a></p>
+                            <p class="email col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="docentes.php"> Plana Docente</a></p>  
                         </div> 
                     </div>
                 </div>
 
                 <div class="footer-col col-md-4 col-sm-4 enlaces">
                     <div class="footer-col-inner">
-                        <h3 class="lineafooter">Enlaces directos</h3>
+                        <h3 class="lineafooter">Servicios</h3>
                         <div class="row">
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Inicio</a></p>
-                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Admision</a></p>
-                            <p class="email col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="#"> Correo institucional</a></p>  
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="convenios.php"> Convenios</a></p>
+                            <p class="tel col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="tesis_alumno.php"> Tesis Alumnos</a></p>
+                            <p class="email col-md-12 col-sm-12"><i class="fa fa-caret-right"></i><a href="sistema_academico.php"> Sistema Academico</a></p>  
                         </div>
                     </div>           
                 </div>  

@@ -32,26 +32,27 @@
                 </div><!--//navbar-header-->            
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item"><a href="index">Inicio</a></li>
-                        <li class="nav-item"><a href="autoridades">Autoridades</a></li>
-                        <li class="nav-item"><a href="historia">Historia</a></li>
-                        <li class="active nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Servicios <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="convenios">Convenios</a></li> 
-                                <li><a href="tesis_alumno">Tesis de Alumnos</a></li>
-                                <li><a href="sistema_academico">Sistema Academico</a></li> 
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="docentes">Plana docente</a></li>
+                        <li class="nav-item"><a href="index.php">Inicio</a></li>
+                        <li class="nav-item"><a href="historia.php">Historia</a></li>
+                        <li class="nav-item"><a href="autoridades.php">Autoridades</a></li>
+                        <li class="nav-item"><a href="docentes.php">Plana docente</a></li>
                         <li class="nav-item dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Esc. Profesionales <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="e_zootecnia">Esc. Profesional de Zootecnia</a></li>       
+                                <li><a href="e_zootecnia.php">Esc. Profesional de Zootecnia</a></li>       
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="oficinas">Oficinas</a></li>
-                        <li class="nav-item"><a href="laboratorio">Laboratorio</a></li>
+                        <li class="nav-item"><a href="oficinas.php">Oficinas</a></li>
+                        
+                        <li class="active nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Servicios <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="convenios.php">Convenios</a></li>
+                                <li><a href="tesis_alumno.php">Tesis de Alumnos</a></li>
+                                <li><a href="sistema_academico.php">Sistema Academico</a></li>    
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="postgrado.php">PostGrado</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </div><!--//container-->
@@ -69,7 +70,7 @@
 
                         <div class="col-md-4" style="padding-bottom: 30px;">   
                             <div class="span3">
-                                <div class="hl-circle12" style="border:3px solid #D32F2F"><a href="http://aplicaciones.unprg.edu.pe/ModuloAutenticacion/indice.jsp" target="_black" class="hl-ico1"></a></div>
+                                <div class="hl-circle12" style="border:3px solid #ad1457"><a href="http://aplicaciones.unprg.edu.pe/ModuloAutenticacion/indice.jsp" target="_black" class="hl-ico1"></a></div>
                                 <div class="highlights-content botonrojo">
                                     <h4><a href="http://aplicaciones.unprg.edu.pe/ModuloAutenticacion/indice.jsp" target="_black">Actas virtuales</a></h4>
                                 </div>
@@ -78,7 +79,7 @@
 
                         <div class="col-md-4" style="padding-bottom: 30px;">   
                             <div class="span3">
-                                <div class="hl-circle12" style="border:3px solid #D32F2F"><a href="http://www.unprg.edu.pe/ocaa/" target="_black" class="hl-ico2"></a></div>
+                                <div class="hl-circle12" style="border:3px solid #ad1457"><a href="http://www.unprg.edu.pe/ocaa/" target="_black" class="hl-ico2"></a></div>
                                 <div class="highlights-content botonrojo">
                                     <h4><a href="http://www.unprg.edu.pe/ocaa/" target="_black">OCCA</a></h4>
                                 </div>
@@ -87,7 +88,7 @@
 
                         <div class="col-md-4" style="padding-bottom: 30px;">   
                             <div class="span3">
-                                <div class="hl-circle12" style="border:3px solid #D32F2F"><a href="http://www2.unprg.edu.pe/scnl" target="_black" class="hl-ico5"></a></div>
+                                <div class="hl-circle12" style="border:3px solid #ad1457"><a href="http://www2.unprg.edu.pe/scnl" target="_black" class="hl-ico5"></a></div>
                                 <div class="highlights-content botonrojo">
                                     <h4><a href="http://www2.unprg.edu.pe/scnl" target="_black">Sistema de carga no lectiva</a></h4>
                                 </div>
@@ -95,7 +96,7 @@
                         </div><!--item-->
                         <div class="col-md-4" style="padding-bottom: 30px;">   
                             <div class="span3">
-                                <div class="hl-circle12" style="border:3px solid #D32F2F"><a href="#" target="_black" class="hl-ico3"></a></div>
+                                <div class="hl-circle12" style="border:3px solid #ad1457"><a href="#" target="_black" class="hl-ico3"></a></div>
                                 <div class="highlights-content botonrojo">
                                     <h4><a href="#" target="_black">Guia de matricula</a></h4>
                                 </div>
