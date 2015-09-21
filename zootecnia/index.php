@@ -7,8 +7,68 @@
 @include_once("html/head.php");
 ?>
 </head>
-
 <body class="home-page">
+
+
+
+
+
+
+
+    <!-- *****CONFIGURE STYLE****** --> 
+
+    <style type="text/css">
+
+  
+
+.AvisoIzquierdo { 
+    float:left;
+    width:544px;
+    height:387px;
+    background: url(imagenes/comunicado.png) no-repeat !important;
+    display:block;
+    left:-496px;
+    padding:0;
+    position:fixed;
+    top: 240px;
+    z-index:1002;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+.likeboxwrap {
+    
+    margin-left:-5px;
+    background-color:#fff;
+    overflow:hidden;
+    
+    
+    border: 2px solid #fb0415;
+}
+
+
+    </style> 
+
+<div class="AvisoIzquierdo hidden-sm hidden-xs">
+    <div style="padding: 0px 5px 0pt 10px;">
+        <span>
+            <div class="likeboxwrap" style="width:493px;height:370px;">
+
+
+<img src="http://www.unprg.edu.pe/portal/2015/aviso_1.png" class="img-responsive">
+
+
+            </div>
+        </span>
+    </div>
+</div>
+
+
+
+
+
+
+
     <div class="wrapper">
         <!-- ******HEADER****** --> 
         <header class="header">  
@@ -148,7 +208,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center">
                             <div class="cpu">
                                 <a href="#"></a>
-                                <img src="imagenes/botones/cpu.jpg" class="img-responsive">
+                                <img src="imagenes/botones/pre.jpg" class="img-responsive">
                                 <div class="pricing-table-header-small">
                                 <div class="menuprincipal">CPU</div>
                             </div>
@@ -526,8 +586,11 @@
 ?>
     </footer><!--//footer-->
 
+<?
+include_once("html/aviso.php");
+?>
 
-    <!-- Javascript -->          
+<!-- Javascript -->          
 <?php
 @include_once("html/js.php");
 ?>

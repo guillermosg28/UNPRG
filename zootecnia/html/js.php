@@ -7,4 +7,5 @@
     <script type="text/javascript" src="plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="plugins/flexslider/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="plugins/jflickrfeed/jflickrfeed.min.js"></script> 
+    <script src="http://anguelsc.com/tln/tema/js/jquery.marquee.js"></script>
     <script type="text/javascript" src="js/main.js"></script>  

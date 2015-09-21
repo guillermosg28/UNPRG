@@ -92,3 +92,43 @@ $(document).ready(function() {
 
     $('[rel=tooltip]').tooltip();
 });
+
+
+jQuery(function (){
+jQuery(".AvisoIzquierdo").hover(function(){
+jQuery(".AvisoIzquierdo").stop(true, false).animate({left:"0"},"medium");
+},function(){
+jQuery(".AvisoIzquierdo").stop(true, false).animate({left:"-498px"},"medium");
+},500);
+return false;
+});
+
+$('#myModal').modal('show');
+
+
+/*BARRA DE NOTICIAS */
+$(function(){
+  $('#newsList').marquee({
+    direction:'horizontal',
+    delay:0,
+    timing:12,
+    finished : function(){
+      
+    }
+  });  
+  $('#menu').scrollspy({
+    min: $('#menu').offset().top+50,
+    max: 10000,
+    onEnter: function(element, position) {
+      $("#menu").addClass('fixed');
+    },
+    onLeave: function(element, position) {
+      $("#menu").removeClass('fixed');
+    }
+    });
+    $('#menu__toggle').on('click', function(){
+      $(this).next().slideToggle();
+    });
+
+});
+

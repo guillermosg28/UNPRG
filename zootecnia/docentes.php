@@ -72,7 +72,7 @@
                             <div class="span3">
                                 <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
                                 <div class="highlights-content botonrojo">
-                                    <h4>Nombres y Apellidos</h4>
+                                    <h4>Ing. Acosta Vidaurre Rogelio</h4>
                                     Estudio 1<br>
                                     Estudio 2
                                 </div>
@@ -83,7 +83,7 @@
                             <div class="span3">
                                 <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
                                 <div class="highlights-content botonrojo">
-                                    <h4>Nombres y Apellidos</h4>
+                                    <h4>Ing. Adrianzen Arbulú Enrique</h4>
                                     Estudio 1<br>
                                     Estudio 2
                                 </div>
@@ -94,7 +94,7 @@
                             <div class="span3">
                                 <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
                                 <div class="highlights-content botonrojo">
-                                    <h4>Nombres y Apellidos</h4>
+                                    <h4>Ing. Aguilar Patilongo Carolina</h4>
                                     Estudio 1<br>
                                     Estudio 2
                                 </div>
@@ -104,7 +104,172 @@
                             <div class="span3">
                                 <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
                                 <div class="highlights-content botonrojo">
-                                    <h4>Nombres y Apellidos</h4>
+                                    <h4>Ing. Bernal Rubio Segundo</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Msc. Corrales Rodriguez Napoleón</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Msc. Colter Apaza Beatriz</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Del Carpio Ramos Antonio</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Flores Paiva Alejandro</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Gamonal Cruz Humberto</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Guerrero Delgado Antonio</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. MscGuerrero Quijano Jorge</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Msc Lozano Alva Enrrique</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Msc. Nieto castellanos Bernardo</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. MSc. Pomares Neira Carlos</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Msc. Romero Renteria José</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. MSc. Vassallo Forero Gustavo</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Msc. Villena Rodriguez Francis</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Zuloeta Romero Salvador</h4>
+                                    Estudio 1<br>
+                                    Estudio 2
+                                </div>
+                            </div>
+                        </div><!--item-->
+
+                        <div class="col-md-4" style="padding-bottom: 30px;">   
+                            <div class="span3">
+                                <div class="hl-circle12" ><img class="hl-icon2" src="imagenes/docentes/avatar.jpg"></div>
+                                <div class="highlights-content botonrojo">
+                                    <h4>Ing. Bautista Espinoza Benito</h4>
                                     Estudio 1<br>
                                     Estudio 2
                                 </div>

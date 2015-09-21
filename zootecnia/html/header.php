@@ -1,17 +1,32 @@
             <div class="top-bar">
                 <div class="container"> 
-                    <ul class="social col-md-6 col-sm-6 col-xs-12">
-                        <a href="#"><i class="fa fa-facebook facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter twitter"></i></a>
-                        <a href="#"><i class="fa fa-youtube youtube"></i></a>
-                    </ul>
-
-                    <form class="pull-right search-form" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Buscar...">
+                    <div class="col-md-4 col-sm-4">
+                        <ul class="social">
+                            <a href="#"><i class="fa fa-facebook facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube youtube"></i></a>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                        <div id="titulares">
+                            <div class="grupo">
+                                <div class="mensaje">Titulares</div>
+                                <div class="content" style="position: relative; overflow: hidden;"> 
+                                    <div id="newsData"></div>
+                                    <ul id="newsList" style="position: absolute; top: 0px; left: -1216px; width: 1000%;">
+                                        <li><a href="#"> Aqui Noticia Numero 01</a></li>
+                                        <li><a href="#"> Aqui Noticia Numero 02</a></li>
+                                        <li><a href="#"> Aqui Noticia Numero 03</a></li>
+                                        <li><a href="#"> Aqui Noticia Numero 04</a></li>
+                                        <li><a href="#"> Aqui Noticia Numero 05</a></li>
+                                        <li><a href="#"> Aqui Noticia Numero 06</a></li>
+                                        <li><a href="#"> Aqui Noticia Numero 07</a></li>
+                                        <li><a href="#"> Aqui Noticia Numero 08</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-theme">Buscar</button>
-                    </form>         
+                    </div>      
                 </div>      
             </div><!--//to-bar-->
             <div class="header-main container">

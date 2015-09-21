@@ -1,61 +1,40 @@
 <html>
 <head>
 	<title>Prueba</title>
-	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	
-	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://anguelsc.com/tln/tema/css/estilos.css">
+    <script src="http://localhost/unprg/zootecnia/plugins/jquery-1.11.2.min.js"></script>
+    <script src="http://anguelsc.com/tln/tema/js/jquery.marquee.js"></script>
 
-	<script type="text/javascript">
+    <script src="http://anguelsc.com/tln/tema/js/scripts.js"></script>
 
-// set focus when modal is opened
-$('#modal-content').on('shown.bs.modal', function () {
-    $("#txtname").focus();
-});
 
-// show the modal onload
-$('#modal-content').modal({
-    show: true
-});
-
-// everytime the button is pushed, open the modal, and trigger the shown.bs.modal event
-$('#openBtn').click(function () {
-    $('#modal-content').modal({
-        show: true
-    });
-});
-	</script>
 
 </head>
 
-<body class="modal-open">
-  <a href="#" class="btn btn-default" id="openBtn">Open modal</a>
+<body>
 
-<div id="modal-content" class="modal fade in" tabindex="-1" role="dialog" aria-hidden="false" style="display: block;">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">×</button>
-                 <h3>Modal header</h3>
 
-            </div>
-            <div class="modal-body">
-                <p>
-                    <input type="text" id="txtname">
-                </p>
-            </div>
-            <div class="modal-footer"> <a href="#" class="btn" data-dismiss="modal">Close</a>
- <a href="#" class="btn btn-primary">Save changes</a>
 
-            </div>
+
+<section id="titulares">
+      <div class="grupo">
+        <div class="mensaje">Titulares</div>
+        <div class="content" style="position: relative; overflow: hidden;"> 
+          <div id="newsData"></div>
+          <ul id="newsList" style="position: absolute; top: 0px; left: -1216px; width: 1000%;">
+            <li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 1 que termiina aquii.  pawdawd aw dawd ad</a></li>
+            <li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 2 que termiina aquii. </a></li>
+            <li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 3 que termiina aquii. </a></li>
+            <li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 4 que termiina aquii. ssssssssssssssssssssssssss s s</a></li>
+            <li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 5 que termiina aquii. </a></li>
+          <li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 1 que termiina aquii.  pawdawd aw dawd ad</a></li><li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 2 que termiina aquii. </a></li><li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 3 que termiina aquii. </a></li><li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 4 que termiina aquii. ssssssssssssssssssssssssss s s</a></li><li><a href="#"><span class="tiempo">4:00pm </span>Esta es la noticia 5 que termiina aquii. </a></li></ul>
         </div>
-    </div>
-</div>
-  
+      </div>
+    </section>
 
 
 
 
-<div class="modal-backdrop fade in"></div></body>
+
 
 </html>
